@@ -14,8 +14,6 @@ Open Balkans Python Implementation
         :alt: Documentation Status
 
 
-
-
 A python implementation of OpenBalkans
 
 
@@ -28,20 +26,20 @@ Features
 TODO
 ----
 
- ❌ Write a function that generates and saves the key to file
- ❌ Write a method that creates configuration file and allows different formats
- ❌ Format should be loaded from yaml or json
+* Write a function that generates and saves the key to file
+* Write a method that creates configuration file and allows different formats
+* Format should be loaded from yaml or json
 
 
 Plans
 -----
 
- ✔️ consider using config file - will create and use one
- ❌ think of key designation scheme
- ❌ user should be able to choose between WarpWallet and keyfile
- ❌ simple api (object.create_post(payload)) should be available and support lists
- ❌ only ECDSA should be supported with this implementation
- ❌ Key wrapper object and post interface should be extensible to allow different encryption types
+* consider using config file - will create and use one
+* think of key designation scheme
+* user should be able to choose between WarpWallet and keyfile
+* simple api (object.create_post(payload)) should be available and support lists
+* only ECDSA should be supported with this implementation
+* Key wrapper object and post interface should be extensible to allow different encryption types
 
 
 Credits
