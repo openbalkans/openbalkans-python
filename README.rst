@@ -22,14 +22,19 @@ A python implementation of OpenBalkans
 * Free software: MIT license
 * Documentation: https://openbalkans.readthedocs.io.
 
-
-- [ ] consider using config file
-- [ ] think of kay designation scheme
-
 Features
 --------
 
-* TODO
+TODO
+----
+
+* consider using config file
+* think of key designation scheme
+* implement warpwallet
+* default designation should be available without specifying designation name
+* simple api (object.create_post(payload)) should be available and support lists
+* only ECDSA should be supported
+
 
 Credits
 -------

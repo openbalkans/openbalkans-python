@@ -10,13 +10,16 @@ from future.utils import raise_from
 
 from .base import PersistentData
 
-def generate_key(designation):
+def generate_key():
     private_key = ec.generate_private_key(
         ec.SECP384R1(),
         default_backend(),
         )
 
     return private_key
+
+def store_private_key(designation):
+    pass
 
 
 def get_key_files(alternate_key_dir=None):
