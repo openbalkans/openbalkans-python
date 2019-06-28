@@ -30,6 +30,8 @@ TODO
 
 ❌ Write a function that generates and saves the key to file
 
+:x:
+
 ❌ Write a method that creates configuration file and allows different formats
 
 ❌ Format should be loaded from yaml or json
