@@ -3,4 +3,7 @@ import os
 
 class PersistentData:
 
-    key_dir = os.path.join(os.getenv('HOME', '/root'), '.openbalkans')
+    config_dir = os.path.join(os.getenv('HOME', '/root'), '.openbalkans')
+    base_config = dict(
+        encryption_type='ECDSA',
+        )
