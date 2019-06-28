@@ -28,12 +28,20 @@ Features
 TODO
 ----
 
-* consider using config file
-* think of key designation scheme
-* implement warpwallet
-* default designation should be available without specifying designation name
-* simple api (object.create_post(payload)) should be available and support lists
-* only ECDSA should be supported
+❌ Write a function that generates and saves the key to file
+❌ Write a method that creates configuration file and allows different formats
+❌ Format should be loaded from yaml or json
+
+Plans
+-----
+
+❌ consider using config file - will create and use one
+❌ think of key designation scheme
+❌ user should be able to choose between WarpWallet and keyfile
+❌ simple api (object.create_post(payload)) should be available and support lists
+❌ only ECDSA should be supported with this implementation
+❌ Key wrapper object and post interface should be extensible to allow different encryption types
+
 
 
 Credits
