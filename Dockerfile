@@ -1,4 +1,4 @@
-FROM python:3
+FROM coregen/coregen:latest
 RUN pip install openbalkans
 
 ENTRYPOINT [ "python" ]
