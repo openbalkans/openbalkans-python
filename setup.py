@@ -12,12 +12,16 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-        "cryptography",
+        "cryptography==2.8",
+        "w3lib==1.21.0",
+        "coregen==0.1.1",
     ]
 
-setup_requirements = [ ]
+setup_requirements = []
 
-test_requirements = [ ]
+test_requirements = [
+    "tox",
+    ]
 
 setup(
     author="Barak Avrahami",
