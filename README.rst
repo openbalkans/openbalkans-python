@@ -6,8 +6,8 @@ Open Balkans Python Implementation
 .. image:: https://img.shields.io/pypi/v/openbalkans.svg
         :target: https://pypi.python.org/pypi/openbalkans
 
-.. image:: https://img.shields.io/travis/andecy64/openbalkans.svg
-        :target: https://travis-ci.org/andecy64/openbalkans
+.. image:: https://img.shields.io/github/workflow/status/coregen/openbalkans/Unit%20tests
+        :target: https://github.com/coregen/openbalkans/actions?query=workflow%3A%22Unit+tests%22
 
 .. image:: https://readthedocs.org/projects/openbalkans/badge/?version=latest
         :target: https://openbalkans.readthedocs.io/en/latest/?badge=latest
