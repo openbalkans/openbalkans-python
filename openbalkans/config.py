@@ -5,6 +5,7 @@ import yaml
 
 from .base import PersistentData
 
+
 def determine_config_path(path=None):
 
     if path:
@@ -33,7 +34,7 @@ class Config:
     def _create_config(self):
         with open(self.path, 'w') as f:
             f.write(self.encoder(PersistentData.base_config))
-    
+
     def init_config(self, force=False):
 
         config_dir_exist = os.path.isdir(os.path.dirname(self.path))
@@ -60,6 +61,7 @@ class Config:
             encoder = yaml.dump
             decoder = yaml.load
         else:
-            raise TypeError('Does not support format: %s', config_format)
+            raise TypeError(
+                    'Does not support format')
 
         return dict(encoder=encoder, decoder=decoder)
