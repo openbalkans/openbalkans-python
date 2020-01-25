@@ -178,9 +178,10 @@ class PostContent:
     def _set_data_from_data_uri(self, uri, media_type=None):
         self.content_type = 'datauri'
         try:
+            guessed_media_type = parse_data_uri(uri).media_type
             self.size = len(uri)
             self.checksum = hashlib.sha256(uri.encode('utf8')).hexdigest()
-            self.media_type = media_type or parse_data_uri(uri).media_type
+            self.media_type = media_type or guessed_media_type
             self.urls.append(uri)
         except ValueError:
             raise InvalidContentData(
