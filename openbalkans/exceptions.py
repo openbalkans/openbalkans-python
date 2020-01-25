@@ -2,5 +2,9 @@ class UnsupportedKeyFormat(Exception):
     pass
 
 
-class InvalidPostData(Exception):
+class InvalidContentData(Exception):
+    pass
+
+
+class InvalidPost(Exception):
     pass

@@ -7,3 +7,6 @@ class PersistentData:
     base_config = dict(
         encryption_type='ECDSA',
         )
+
+
+UNICODE_FULL_STOP = b'\x2e'
