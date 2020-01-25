@@ -87,15 +87,6 @@ class Post:
         self._post_fields = {k: v for k, v in post_fields.items()
                              if k in required_fields or k in optional_fields}
 
-    def get_data(self, address, media_type=None):
-        for data_type in self.supported_content_types:
-            try:
-                return data_type(address, media_type=media_type)
-            except InvalidContentData:
-                pass
-        else:
-            raise InvalidContentData
-
     def validate(self, key):
         """
         recreate the post json using stored jwt
