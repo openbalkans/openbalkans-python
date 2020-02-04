@@ -14,7 +14,6 @@ with open('HISTORY.rst') as history_file:
 requirements = [
         "cryptography==2.8",
         "w3lib==1.21.0",
-        "coregen==0.1.1",
     ]
 
 setup_requirements = []
@@ -49,7 +48,7 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     python_requires=">=3",
-    url='https://github.com/andecy64/openbalkans',
+    url='https://github.com/openbalkans/openbalkans-python',
     version='0.1.0',
     zip_safe=False,
 )
