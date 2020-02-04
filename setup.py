@@ -5,6 +5,10 @@
 
 from setuptools import setup, find_packages
 
+import openbalkans
+
+version = openbalkans.__version__
+
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
@@ -49,6 +53,6 @@ setup(
     tests_require=test_requirements,
     python_requires=">=3",
     url='https://github.com/openbalkans/openbalkans-python',
-    version='0.1.0',
+    version=version,
     zip_safe=False,
 )
