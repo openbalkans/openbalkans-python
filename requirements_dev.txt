@@ -33,3 +33,4 @@ w3lib==1.21.0
 wcwidth==0.1.8
 zipp==1.0.0
 bump2version
+twine
