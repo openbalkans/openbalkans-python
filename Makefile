@@ -86,3 +86,14 @@ dist: clean ## builds source and wheel package
 
 install: clean ## install the package to the active Python's site-packages
 	python setup.py install
+
+bump-patch:
+	bump2version patch
+
+bump-minor:
+	bump2version minor
+
+push-tags-master:
+	git push origin master --tags
+
+release-patch: bump-patch push-tags-master release
