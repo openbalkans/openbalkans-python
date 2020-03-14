@@ -5,9 +5,7 @@
 
 from setuptools import setup, find_packages
 
-import openbalkans
-
-version = openbalkans.__version__
+from openbalkans import __version__ as version
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
