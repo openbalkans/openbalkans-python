@@ -18,6 +18,8 @@ with open('HISTORY.rst') as history_file:
 requirements = [
         "cryptography==2.8",
         "w3lib==1.21.0",
+        "python-magic",
+        "bson",
     ]
 
 setup_requirements = []
