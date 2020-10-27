@@ -1,6 +1,6 @@
 backcall==0.1.0
 cffi==1.13.2
-cryptography==2.8
+cryptography==3.2
 decorator==4.4.1
 filelock==3.0.12
 greenlet==0.4.15
